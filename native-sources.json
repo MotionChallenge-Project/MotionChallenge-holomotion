@@ -1,0 +1,24 @@
+{
+  "source_commit": "5b51cc24eff71b67fe7e5acd539c06329137dc80",
+  "version": "v1.4.0",
+  "files": {
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/observation_evaluator.py": "dabf5015db9bbd3e2e05acf1b3e4cece2b8d8acae6cf38f9b9431e6021cb2bf6",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/offline_motion_reference.py": "432530a9809cfdca52d190f0e5d09c9e718e4c612a59c789d951ec518485f20c",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/policy_node_29dof.py": "776fe2241f0bad8fe277f3c27fe1b8796165f33b0ba3e5c3c31c17946bdc0ee3",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/policy_runtime.py": "967a2ae9f3e694201f0e9a2fe7d9dbc4926fe4cb0801879925d3f085148f53f1"
+  },
+  "checkpoint_config_sha256": "f2bdcd26b7436123ce07478ac88dec5d0657a2a6b134e8114545434be3cb8b62",
+  "onnx_metadata": {
+    "action_scale": "0.548,0.548,0.548,0.351,0.351,0.439,0.548,0.548,0.439,0.351,0.351,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.075,0.075,0.075,0.075",
+    "rope_max_seq_len": "8192",
+    "joint_damping": "2.558,2.558,2.558,6.309,6.309,1.814,2.558,2.558,1.814,6.309,6.309,0.907,0.907,1.814,1.814,0.907,0.907,1.814,1.814,0.907,0.907,0.907,0.907,0.907,0.907,1.068,1.068,1.068,1.068",
+    "joint_stiffness": "40.179,40.179,40.179,99.098,99.098,28.501,40.179,40.179,28.501,99.098,99.098,14.251,14.251,28.501,28.501,14.251,14.251,28.501,28.501,14.251,14.251,14.251,14.251,14.251,14.251,16.778,16.778,16.778,16.778",
+    "default_joint_pos": "-0.320,-0.320,-0.002,-0.006,0.008,-0.008,0.005,0.009,0.107,0.660,0.676,0.191,0.204,-0.365,-0.357,0.198,-0.202,-0.005,0.010,-0.006,-0.008,0.600,0.594,0.004,-0.002,-0.010,-0.001,0.000,-0.004",
+    "joint_names": "left_hip_pitch_joint,right_hip_pitch_joint,waist_yaw_joint,left_hip_roll_joint,right_hip_roll_joint,waist_roll_joint,left_hip_yaw_joint,right_hip_yaw_joint,waist_pitch_joint,left_knee_joint,right_knee_joint,left_shoulder_pitch_joint,right_shoulder_pitch_joint,left_ankle_pitch_joint,right_ankle_pitch_joint,left_shoulder_roll_joint,right_shoulder_roll_joint,left_ankle_roll_joint,right_ankle_roll_joint,left_shoulder_yaw_joint,right_shoulder_yaw_joint,left_elbow_joint,right_elbow_joint,left_wrist_roll_joint,right_wrist_roll_joint,left_wrist_pitch_joint,right_wrist_pitch_joint,left_wrist_yaw_joint,right_wrist_yaw_joint"
+  },
+  "audited_adapter_files_sha256": {
+    "adapter.py": "dd9452b5d9d767c9f2d734edbba4a4538dc2059d9180827d195fdf8b829b1d98",
+    "policy.json": "7974f78f380877c9b2266e80c9f22ba7789c7f29e2b75a5d5226c623aaa6bf07",
+    "runtime.json": "b0275b075df3c5efb5d0c60115d4a0805b5af5dc578a2e27988eb7019cc57fe6"
+  }
+}

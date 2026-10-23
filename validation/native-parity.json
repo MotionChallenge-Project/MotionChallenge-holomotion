@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "cases": 160,
+  "resets": 4,
+  "max_abs_error": {
+    "observation": 4.291534423828125e-06,
+    "network": 0.0,
+    "action": 4.291534423828125e-06,
+    "motor_target": 6.661415099529222e-07,
+    "cache": 2.0265579223632812e-06,
+    "reset_cache": 0.0
+  },
+  "limits": {
+    "observation": 0.0002,
+    "network": 0.0,
+    "action": 0.002,
+    "motor_target": 0.002,
+    "cache": 0.002,
+    "reset_cache": 0.0
+  },
+  "audited_adapter_files_sha256": {
+    "adapter.py": "dd9452b5d9d767c9f2d734edbba4a4538dc2059d9180827d195fdf8b829b1d98",
+    "policy.json": "7974f78f380877c9b2266e80c9f22ba7789c7f29e2b75a5d5226c623aaa6bf07",
+    "runtime.json": "b0275b075df3c5efb5d0c60115d4a0805b5af5dc578a2e27988eb7019cc57fe6"
+  },
+  "checkpoint_sha256": "859174937272747e762075db482e2b8d05d40dacb3a09884fc9d7d42086bbffe",
+  "source_commit": "5b51cc24eff71b67fe7e5acd539c06329137dc80",
+  "version": "v1.4.0",
+  "scope": "Original offline-reference/evaluator/runtime AST, published ONNX metadata, recurrent ONNX and motor targets; no ROS glue. Shared benchmark physics and GPU-provider equivalence are separate."
+}

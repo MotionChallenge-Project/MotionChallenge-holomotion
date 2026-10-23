@@ -5,7 +5,7 @@
   "upstream": "https://github.com/HorizonRobotics/HoloMotion",
   "source_commit": "fcb8d4d8e96af9535c2adcc2b53e267019f865a2",
   "checkpoint_sha256": "859174937272747e762075db482e2b8d05d40dacb3a09884fc9d7d42086bbffe",
-  "author_inference_review": "pending",
+  "author_inference_review": "Native-source parity passed: 160 cases and 4 resets; observation, recurrent inference, cache rollover and motor targets.",
   "benchmark_physics": "shared G1 canonical profile, not the author training simulator",
   "legacy_results": "not transferable to this adapter revision without rerunning",
   "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms",
@@ -19,5 +19,7 @@
     "verification": "The adapter pins this published artifact by SHA256. Artifact identity is separate from inference parity.",
     "download_url": "https://huggingface.co/HorizonRobotics/HoloMotion_models/resolve/e3c90dd1f7483d02d3b4d2e5fb3a359c6ff9c67a/HoloMotion_motion_tracking_model_v1.4.0/exported/model_14000.onnx",
     "sha256": "859174937272747e762075db482e2b8d05d40dacb3a09884fc9d7d42086bbffe"
-  }
+  },
+  "inference_validation": "validation/native-parity.json",
+  "native_validation_source_commit": "5b51cc24eff71b67fe7e5acd539c06329137dc80"
 }
