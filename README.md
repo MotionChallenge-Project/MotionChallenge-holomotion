@@ -26,3 +26,9 @@ download and evaluation progress updates every 5 seconds.
 
 Run all frames after tracking failure: `uv run evaluate.py --termination none`.
 This records full-motion errors under a separate protocol; success still requires no failure.
+
+## Checkpoint source
+
+[HorizonRobotics/HoloMotion](https://github.com/HorizonRobotics/HoloMotion/blob/fcb8d4d8e96af9535c2adcc2b53e267019f865a2/README.md) · [model_14000.onnx](https://huggingface.co/HorizonRobotics/HoloMotion_models/blob/e3c90dd1f7483d02d3b4d2e5fb3a359c6ff9c67a/HoloMotion_motion_tracking_model_v1.4.0/exported/model_14000.onnx). Author-released checkpoint.
+
+The adapter pins this published artifact by SHA256. Artifact identity is separate from inference parity.
