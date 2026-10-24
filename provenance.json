@@ -5,7 +5,7 @@
   "upstream": "https://github.com/HorizonRobotics/HoloMotion",
   "source_commit": "fcb8d4d8e96af9535c2adcc2b53e267019f865a2",
   "checkpoint_sha256": "859174937272747e762075db482e2b8d05d40dacb3a09884fc9d7d42086bbffe",
-  "author_inference_review": "Native-source parity passed: 160 cases and 4 resets; observation, recurrent inference, cache rollover and motor targets.",
+  "author_inference_review": "Numerical comparison against pinned author inference: validation/native-parity.json",
   "benchmark_physics": "shared G1 canonical profile, not the author training simulator",
   "legacy_results": "not transferable to this adapter revision without rerunning",
   "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms",
