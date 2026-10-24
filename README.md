@@ -1,12 +1,12 @@
-# Motion Challenge · holomotion
+# MotionChallenge · holomotion
 
 [Author project](https://github.com/HorizonRobotics/HoloMotion) · [Checkpoint](https://huggingface.co/HorizonRobotics/HoloMotion_models/blob/e3c90dd1f7483d02d3b4d2e5fb3a359c6ff9c67a/HoloMotion_motion_tracking_model_v1.4.0/exported/model_14000.onnx) · [Provenance](provenance.json)
 
 ## Install and run
 
 ```bash
-git clone --recurse-submodules https://github.com/MotionChallenge-Project/motion-challenge-holomotion.git
-cd motion-challenge-holomotion
+git clone --recurse-submodules https://github.com/MotionChallenge-Project/MotionChallenge-holomotion.git
+cd MotionChallenge-holomotion
 uv sync
 uv run evaluate.py
 ```
