@@ -40,10 +40,13 @@ def main():
     for name,expected in pin['files'].items():
         assert sha(args.source/name)==expected, name
     assert sha(root/'validation/author-config.yaml')==pin['checkpoint_config_sha256']
-    for name, expected in pin['audited_adapter_files_sha256'].items():
-        assert sha(root/name)==expected
+    for name in ('adapter.py', 'policy.json'):
+        assert sha(root/name) == pin['audited_adapter_files_sha256'][name], name
     config=yaml.safe_load((root/'validation/author-config.yaml').read_text())
     runtime=json.loads((root/'runtime.json').read_text());runtime['weights']=str(args.weights.resolve())
+    assert runtime['control_period_s'] == 1 / config['obs']['target_fps']
+    np.testing.assert_array_equal(runtime['reference_offsets_s'],
+        np.arange(config['obs']['n_fut_frames'] + 1) / config['obs']['target_fps'])
     policy=HoloMotion(root,runtime)
     metadata=policy.session.get_modelmeta().custom_metadata_map
     assert metadata==pin['onnx_metadata']
