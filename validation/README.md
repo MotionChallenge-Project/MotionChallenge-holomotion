@@ -20,7 +20,7 @@ Control and scoring use 20 ms periods, four 5 ms physics steps, contact sliding 
 
 | Dataset | Motions | Successful motions | Mean completion | Rollout seconds | Evidence |
 | --- | ---: | ---: | ---: | ---: | --- |
-| LAFAN | 40 | 24 | 0.77447689 | 224.15 | [Independent trace receipt](lafan-evaluation.json) |
+| LAFAN | 40 | 25 | 0.77919388 | 216.48 | [Independent trace receipt](lafan-evaluation.json) |
 | SEED | 129561 | 127075 | 0.98708346 | 985.28 | [Independent trace receipt](seed-evaluation.json) |
 
 Rollout time includes policy inference, physics, scoring, slot refill and trace recording; it excludes preparation and initial reset. Independent CPU verification recomputes reference interpolation, FK, failures and scores from every recorded sample.

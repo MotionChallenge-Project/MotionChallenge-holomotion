@@ -2,7 +2,7 @@
   "model": "holomotion",
   "status": "passed",
   "errors": [],
-  "core_commit": "2221fab60a90adc3c85b1dfd438e00244fb58263",
+  "core_commit": "e4cb035b9f95ec820c4a0384df1f4ebdcbc0abf4",
   "runtime_sha256": "3ef9c7239d394ccad0e7d092cbf2510fffce27ab211ac73f02894ba1422123dd",
   "locked_environment_and_cli": true,
   "own_core_import": "/mnt/volumes/nexus-train-bd-ga/swd/motionchallenge-mjwarp/MotionChallenge-holomotion/MotionChallenge-Core/src/motion_challenge/__init__.py",
